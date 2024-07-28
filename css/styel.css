@@ -1,0 +1,984 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.padding{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h2{
+    font-size: 40px;
+    font-weight: 400 !important;
+}
+h2 span{
+    color: #12B73E;
+}
+p{
+    font-size: 16px;
+    width: 100%;
+}
+h3{
+    font-size: 24px !important;
+    font-weight: 400 !important;
+}
+/* navbar */
+.navbar-nav a{
+    padding-right:50px !important;
+    color: black;
+
+}
+.navbar-nav .login-btn{
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: #8BC726;
+    border: none;
+}
+.navbar-nav{
+    justify-content: center;
+    align-items: center;
+}
+/* banner */
+.discover-btn{
+    height: 62px !important;
+    width: 238px !important;
+    border-radius: 40px !important;
+    background-color: #12B73E !important;
+    border:none !important;
+    font-size: 20px !important;
+    margin-top: 50px;
+}
+.banner-text h2{
+    line-height: 60px !important;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    font-size: 45px;
+}
+.banner-section {
+    background-image: url(../image/home-banner1\ 1.png);
+    height:748px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    object-position: center;
+    background-size: cover;
+}
+.banner-text{
+     padding-top: 130px; 
+}
+/* wellcome div  */
+.know-btn{
+    height: 50px !important;
+    width: 200px !important;
+    border-radius: 40px !important;
+    background-color: #12B73E !important;
+    border:none !important;
+    font-size: 16px !important;
+    margin-top: 40px;
+}
+.wellcome-section .slider img{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.wellcome-section{
+    height: auto;
+}
+.wellcome-section p{
+    line-height: 40px;
+}
+/* activitie part */
+.activitie{
+    background-image: url("../image/Group\ 6\ \(1\).png");
+    height:912px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    object-position: center;
+    background-size: cover;
+}
+.activitie-div  h2{
+    padding-top: 100px;
+}
+.card-div2{
+    margin-top: 70px;
+}
+.card_div {
+    padding-bottom: 140px !important;
+    transform: translateY(-75px);
+}
+.activitie-div h3{
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* dite-section */
+.dite-section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* Useful Health tips part  */
+.health-section {
+    margin-top: 70px !important;
+    margin-bottom: 100px;
+}
+.health-section .slider{
+    padding-bottom: 60px;
+}
+.food-card {
+    width: 707px;
+    height: 320px;
+    background-color: #F3F3F3;
+    gap: 80px !important;
+}
+.food-card h3{
+    color: #233670;
+}
+.food-card h4{
+    font-size: 15px;
+    color: #12B73E;
+}
+/* banner2 */
+.banner2{
+    background-image: url("../image/Vector.png");
+    height:470px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    object-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.banner-div2{
+      transform:translateY(220px);
+}
+.banner-div2 h1{
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+}
+.banner-div2 button{
+    background-color: #8BC726 !important;
+}
+/* Latest Blog */
+.blog-section{
+    height: auto;
+    margin-bottom: 30px;
+}
+.blog-section .slider{
+    margin-bottom: 20px !important;
+}
+.blog-section  p{
+    line-height: 40px;
+}
+.monthly-user i{
+   font-size:12px !important;
+   line-height: 40px;
+   letter-spacing: 2px;
+   color: #000000;
+   font-weight: 100;
+}
+.user-card img{
+    height:450px ;
+}
+.monthly-user {
+    width: 720px;
+    height: 134px;
+    background-color: #F3F3F3 !important;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.user-card  h6{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.monthly-div{
+    margin-top:100px ;
+    margin-bottom: 100px;
+}
+/* client-card  */
+.client-card p{
+    color: #606060;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.client-card h6{
+    padding-bottom: 20px;
+}
+.client-card span{
+    color: #12B73E;
+}
+.client-card i{
+    font-size: 30px;
+    color: #12B73E;
+    margin-bottom: 20px;
+}
+.client-card h3{
+    font-size: 20px;
+}
+.client-card{
+    height: 375px;
+    width: 396px;
+    background-color:#E2E2E2 ;
+    padding: 20px;
+    padding-top: 30px;
+}
+.client-div{
+    margin-top: 50px;
+}
+.Testimonial-part{
+    height: auto;
+    margin-bottom: 30px;
+}
+/* app-image */
+.app-image{
+    margin-top: 80px;
+}
+/* footer part */
+.footer-card3 i{
+    margin-right: 10px;
+    font-size: 25px;
+    color: #12B73E;
+}
+footer h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* responsive part */
+@media screen and (max-width:1540px) {
+    .food-card {
+        width: 530px;
+        height: 270px;
+        background-color: #F3F3F3;
+        gap: 25px !important;
+    }
+    .user-card img{
+        height:359px ;
+    }
+    .monthly-user {
+        width: 575px;
+        height: 134px;
+        padding: 10px;
+    }
+    .user-card  h6{
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:1400px) {
+    .client-card h6{
+        padding-bottom: 20px;
+    }
+    .client-card i{
+        font-size: 30px;
+        color: #12B73E;
+        margin-bottom: 20px;
+    }
+    .client-card h3{
+        font-size: 18px !important;
+    }
+    .client-card p{
+        font-size: 13px !important;
+    }
+    .client-card h6{
+        font-size: 14px !important;
+    }
+     .client-card img{
+        height: 100px;
+     }
+     .client-card{
+        height: 335px;
+        width: 350px;
+        background-color:#E2E2E2 ;
+        padding: 20px;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width:1340px) {
+    .padding{
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+    .navbar-nav a{
+        padding-right:30px !important;
+        color: black;
+    
+    }
+    .banner-section {
+        height:700px;
+        width: 100%;
+        object-fit: cover;
+        background-repeat:no-repeat;
+        object-position: center;
+        background-size: cover;
+    }
+    .discover-btn{
+        height: 52px !important;
+        width: 200px !important;
+        font-size: 20px !important;
+        margin-top: 45px;
+    }
+    h2{
+        font-size: 35px;
+        font-weight: 400 !important;
+    }
+   .banner-text p{
+        font-size: 15px;
+    }
+    .banner-text{
+        padding-top: 120px; 
+   }
+   .user-card img{
+    height:309px ;
+}
+.monthly-user {
+    width: 495px;
+    height: 134px;
+    padding: 10px;
+}
+.user-card  h6{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.monthly-div{
+    margin-top:50px ;
+    margin-bottom: 50px;
+}
+}
+@media screen and (max-width:1240px) {
+    .padding{
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
+    .navbar-nav a{
+        padding-right:20px !important;
+        color: black;
+    
+    }
+    .banner-section {
+        height:650px;
+        width: 100%;
+        object-fit: cover;
+        background-repeat:no-repeat;
+        object-position: center;
+        background-size: cover;
+    }
+    .discover-btn{
+        height: 46px !important;
+        width: 180px !important;
+        font-size: 17px !important;
+        margin-top: 40px;
+    }
+    h2{
+        font-size: 33px;
+        font-weight: 400 !important;
+    }
+   .banner-text p{
+        font-size: 15px;
+    }
+    .banner-text{
+        padding-top: 110px; 
+   }
+   .food-card img{
+        height: 140px;
+   }
+   .food-card h3{
+    font-size: 17px !important;
+   }
+   .food-card p{
+    font-size: 14px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+   }
+   .food-card {
+    width: 440px;
+    height: 200px;
+    background-color: #F3F3F3;
+    gap: 20px !important;
+}
+.banner2{
+    height:400px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    object-position: center;
+    background-size: cover;
+}
+.banner-div2{
+      transform:translateY(170px);
+}
+.banner-div2 h1{
+    font-size:35px;
+}
+.client-card{
+    height: 320px;
+    width: 290px;
+    background-color:#E2E2E2 ;
+    padding: 15px;
+    padding-top: 10px;
+}
+.client-card img{
+    height: 80px;
+ }
+ .client-card i{
+    font-size: 20px;
+ }
+ footer h5{
+    font-size: 17px;
+ }
+ footer p{
+    font-size: 12px;
+ }
+}
+@media screen and (max-width:1100px) {
+    .padding{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+    .navbar-nav a{
+        padding-right:18px !important;
+        color: black;
+    
+    }
+    .banner-section {
+        height:600px;
+        width: 100%;
+        object-fit: cover;
+        background-repeat:no-repeat;
+        object-position: center;
+        background-size: cover;
+    }
+    .discover-btn{
+        height: 40px !important;
+        width: 170px !important;
+        font-size: 17px !important;
+        margin-top: 36px;
+    }
+    h2{
+        font-size: 33px !important;
+        font-weight: 400 !important;
+    }
+    .banner-text{
+        padding-top: 100px; 
+   }
+   .banner2{
+    height:350px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    object-position: center;
+    background-size: cover;
+}
+.banner-div2{
+      transform:translateY(150px);
+}
+.banner-div2 h1{
+    font-size:32px;
+}
+.user-card img{
+    height:259px ;
+}
+.monthly-user {
+    width: 415px;
+    height: 134px;
+    padding: 10px;
+}
+.user-card  h6{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.monthly-div{
+    margin-top:40px ;
+    margin-bottom: 40px;
+}
+.blog-section  p{
+    line-height: 30px;
+}
+}
+
+@media screen and (max-width:991px) {
+    .padding{
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+
+    .banner-section {
+        height:520px;
+        width: 100%;
+        object-fit: cover;
+        background-repeat:no-repeat;
+        object-position: center;
+        background-size: cover;
+    }
+    .discover-btn{
+        height: 40px !important;
+        width: 150px !important;
+        font-size: 16px !important;
+        margin-top: 30px !important;
+    }
+    h2{
+        font-size: 25px !important;
+        font-weight: 400 !important;
+    }
+    .banner-text h2{
+        line-height: 40px !important;
+    }
+    .banner-text{
+        padding-top: 60px; 
+   }
+   .know-btn{
+    height: 50px !important;
+    width: 180px !important;
+    border-radius: 35px !important;
+    background-color: #12B73E !important;
+    border:none !important;
+    font-size: 15px !important;
+    margin-top: 25px;
+}
+.wellcome-section .slider img{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.wellcome-section p{
+    line-height: 20px;
+}
+ p{
+    font-size: 15px !important;
+ }
+ .activitie{
+    background-image: url("");
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    object-position: center;
+    background-size: cover;
+}
+.activitie-div  h2{
+    padding-top: 100px;
+}
+.card_div {
+    padding-bottom: 140px !important;
+    transform: translateY(0px);
+}
+ h3{
+    font-size: 20px;
+}
+.activitie-div p{
+    font-size: 14px !important;
+}
+.row-div {
+    margin-top:0px !important;
+}
+.dite-div{
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.dite-cards p{
+    font-size: 13px !important;
+}
+.food-flex{
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner2{
+    height:300px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    object-position: center;
+    background-size: cover;
+}
+.banner-div2{
+      transform:translateY(110px);
+}
+.banner-div2 h1{
+    font-size:32px;
+}
+.monthly-card{
+    justify-content: center !important;
+    gap: 20px;
+ }
+ .client-card{
+    height: 270px;
+    width: 250px;
+    background-color:#E2E2E2 ;
+    padding: 10px;
+    padding-top: 10px;
+}
+.client-card img{
+    height: 80px;
+ }
+.client-card h3{
+    font-size: 15px !important;
+}
+.client-card p{
+    font-size: 10px !important;
+}
+.client-card h6{
+    font-size: 11px !important;
+}
+}
+@media screen and (max-width:920px) {
+    .user-card img{
+        height:209px ;
+    }
+    .monthly-user {
+        width: 334px;
+        height: 134px;
+        padding: 10px;
+    }
+    .user-card  h6{
+        font-size: 16px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    .monthly-div{
+        margin-top:40px ;
+        margin-bottom: 0px;
+    }
+    .blog-section  p{
+        line-height: 30px;
+    }
+    .footer-div{
+        justify-content: center !important;
+        align-items: center;
+        gap: 20px;
+    }
+    footer h5{
+         font-weight: 400;
+         font-size: 15px;
+    }
+    .footer-card3 i{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 10px !important;
+    }
+    .footer-card1 img{
+       height: 40px;
+    }
+}
+@media screen and (max-width:840px){
+    .client-div{
+        justify-content: center !important;
+        align-items: center;
+        gap: 60px;
+    }
+    .client-div{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:767px) {
+    .padding{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+    .banner-section {
+        height:420px;
+        width: 100%;
+        object-fit: cover;
+        background-repeat:no-repeat;
+        object-position: center;
+        background-size: cover;
+    }
+    .discover-btn{
+        height: 40px !important;
+        width: 150px !important;
+        font-size: 16px !important;
+        margin-top: 20px !important;
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 400 !important;
+       
+    }
+    .banner-text h2{
+        padding-bottom: 10px !important;
+    }
+    .banner-text{
+        padding-top: 80px; 
+   }
+   .banner-text p{
+    font-size: 12px !important;
+   }
+   .know-btn{
+    height: 40px !important;
+    width: 150px !important;
+    font-size: 14px !important;
+    margin-top: 20px;
+}
+.slider img{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 2px;
+}
+
+ p{
+    font-size: 14px !important;
+ }
+
+ .wc-div{
+    gap: 20px;
+ }
+ .card-div2{
+    margin-top: 0px;
+    transform: translateY(-70px);
+}
+.activitie-div  h2{
+    padding-top: 40px;
+}
+.card_div {
+    padding-bottom: 80px !important;
+}
+.dite-section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.health-section .slider{
+    padding-bottom: 20px;
+}
+.health-section {
+    margin-top: 70px !important;
+    margin-bottom: 50px;
+}
+.banner2{
+    height:250px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    object-position: center;
+    background-size: cover;
+}
+.banner-div2{
+      transform:translateY(90px);
+}
+.banner-div2 h1{
+    font-size:27px;
+}
+.user-card img{
+    height:170px ;
+}
+.monthly-user {
+    width: 272px;
+    height: 134px;
+    padding: 10px;
+}
+.user-card  h6{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.monthly-div{
+    margin-top:40px ;
+    margin-bottom: 0px;
+}
+.blog-section  p{
+    line-height: 20px;
+    font-size: 10px !important;
+}
+}
+@media screen and (max-width:609px){
+ .monthly-card{
+    justify-content: center !important;
+    gap: 20px;
+ }
+}
+@media screen and (max-width:665px){
+    .banner2{
+        height:200px;
+        width: 100%;
+        object-fit: cover;
+        background-repeat:no-repeat;
+        object-position: center;
+        background-size: cover;
+    }
+    .banner-div2{
+          transform:translateY(55px);
+    }
+    .banner-div2 h1{
+        font-size:22px;
+    }
+}
+@media screen and (max-width:565px) {
+    .padding{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .banner-section {
+        height:320px;
+        width: 100%;
+        object-fit: cover;
+        background-repeat:no-repeat;
+        object-position: center;
+        background-size: cover;
+    }
+    .discover-btn{
+        height: 30px !important;
+        width: 100px !important;
+        font-size: 10px !important;
+        margin-top: 10px !important;
+    }
+    h2{
+        font-size: 20px !important ;
+        font-weight: 400 !important;
+        padding-bottom: 10px !important;
+    }
+    .banner-text h2{
+        line-height: 30px !important;
+    }
+    .banner-text{
+        padding-top: 60px; 
+   }
+   .banner-text p{
+    font-size: 10px !important;
+}
+    .logo img{
+        height: 45px;
+    }
+    .dite-section{
+        margin-top: 0px;
+    }
+    .dite-div{
+        gap: 10px;
+    }
+    .food-card img{
+        height: 120px;
+   }
+   .food-card h3{
+    font-size: 16px !important;
+   }
+   .food-card p{
+    font-size: 10px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+   }
+   .food-card {
+    width: 380px;
+    height: 160px;
+    background-color: #F3F3F3;
+    gap: 20px !important;
+}
+.food-card h4{
+    font-size: 11px;
+}
+.food-card h3{
+    font-size: 12px !important;
+}
+.banner2{
+    height:150px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    object-position: center;
+    background-size: cover;
+}
+.banner-div2{
+      transform:translateY(50px);
+}
+.banner-div2 h1{
+    font-size:18px;
+}
+.know-btn{
+    height: 30px !important;
+    width: 100px !important;
+    font-size: 10px !important;
+    margin-top: 10px;
+}
+.blog-section .slider{
+    margin-bottom: 0px !important;
+}
+.blog-section  p{
+    font-size: 8px !important;
+}
+.monthly-user i{
+    font-size:9px !important;
+}
+.user-card  h6{
+    font-size: 12px;
+}
+.monthly-user {
+    height: 114px;
+    padding: 5px;
+}
+}
+@media screen and (max-width:420px){
+    .banner-section {
+        height:270px;
+        width: 100%;
+        object-fit: cover;
+        background-repeat:no-repeat;
+        object-position: center;
+        background-size: cover;
+    }
+    .discover-btn{
+        height: 30px !important;
+        width: 100px !important;
+        font-size: 10px !important;
+        margin-top: 10px !important;
+    }
+    h2{
+        font-size: 20px !important ;
+        font-weight: 400 !important;
+        padding-bottom: 10px !important;
+        line-height: 10px !important;
+    }
+    .banner-text{
+        padding-top: 30px; 
+   }
+ 
+p{
+    font-size: 12px;
+}
+.food-card {
+    width: 320px;
+    height: 140px;
+    background-color: #F3F3F3;
+    gap: 10px !important;
+}
+.food-card img{
+    height: 100px;
+}
+.banner2{
+    height:100px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    object-position: center;
+    background-size: cover;
+}
+.banner-div2{
+      transform:translateY(30px);
+}
+.banner-div2 h1{
+    font-size:13px;
+}
+}
+@media screen and (max-width:350px){
+    .food-card {
+        width: 300px;
+        height: 140px;
+        background-color: #F3F3F3;
+        gap: 10px !important;
+    }
+    .know-btn{
+        height: 25px !important;
+        width: 80px !important;
+        font-size: 9px !important;
+        margin-top: 10px;
+    }
+}
